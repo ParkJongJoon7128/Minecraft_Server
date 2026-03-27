@@ -15,6 +15,7 @@ settings:
   save-user-cache-on-stop-only: false
   bungeecord: false
   sample-count: 12
+  filter-unsafe-queries: false
   log-villager-deaths: true
   log-named-deaths: true
   timeout-time: 60

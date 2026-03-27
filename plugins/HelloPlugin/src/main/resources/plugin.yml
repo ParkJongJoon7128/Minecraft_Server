@@ -1,0 +1,11 @@
+name: HelloPlugin
+version: "1.0"
+main: com.yourname.helloplugin.HelloPlugin
+api-version: "1.21"
+description: Hello Plugin
+author: YourName
+
+commands:
+  hello:
+    description: Print hello message
+    usage: /hello
