@@ -1,0 +1,33 @@
+# Paper 서버 실행 파일
+server/paper-*.jar
+server/cache/
+server/libraries/
+
+# 서버 런타임 생성 파일
+server/world/
+server/world_nether/
+server/world_the_end/
+server/logs/
+server/crash-reports/
+server/debug/
+
+# 서버 설정 (선택 - 올리고 싶으면 제거)
+server/ops.json
+server/whitelist.json
+server/banned-players.json
+server/banned-ips.json
+server/usercache.json
+server/sessionlock
+
+# 플러그인 빌드 산출물
+plugins/*/build/
+plugins/*/.gradle/
+plugins/*/out/
+
+# IntelliJ
+plugins/**/.idea/
+plugins/**/*.iml
+
+# OS
+.DS_Store
+Thumbs.db
