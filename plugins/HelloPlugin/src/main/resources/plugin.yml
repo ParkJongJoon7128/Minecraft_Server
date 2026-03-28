@@ -9,3 +9,6 @@ commands:
   hello:
     description: Print hello message
     usage: /hello
+  helloplugin-reload:
+    description: Reload HelloPlugin config
+    usage: /helloplugin-reload

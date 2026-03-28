@@ -1,0 +1,11 @@
+# HelloPlugin 설정 파일
+
+messages:
+  join: "§a[+] §f{player} §a님이 접속했습니다!"
+  welcome: "§e환영합니다, §6{player}§e님! /hello 를 입력해보세요."
+  block-break: "§b[블록] §f{block} §b을(를) 파괴했습니다!"
+
+announce:
+  enabled: true
+  interval: 600
+  message: "§e[공지] §f서버에 접속해주셔서 감사합니다!"
