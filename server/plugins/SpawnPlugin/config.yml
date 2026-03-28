@@ -1,0 +1,6 @@
+# SpawnPlugin 설정 파일
+
+messages:
+  teleport-success: "§a스폰 지점으로 이동했습니다!"
+  no-spawn: "§c설정된 스폰 지점이 없습니다."
+  player-only: "§c플레이어만 사용할 수 있습니다!"

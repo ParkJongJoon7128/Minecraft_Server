@@ -1,0 +1,11 @@
+name: SpawnPlugin
+version: "1.0"
+main: com.yourname.spawnplugin.SpawnPlugin
+api-version: "1.21"
+description: Spawn Plugin
+author: YourName
+
+commands:
+  spawn:
+    description: Move to last spawn point
+    usage: /spawn
