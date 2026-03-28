@@ -1,11 +1,9 @@
-# HelloPlugin 설정 파일
+# GreetPlugin 설정 파일
 
 messages:
   # 접속 관련
   join: "§f{player} §a님이 접속했습니다!"
   join-first: "§f{player} §6님이 처음으로 접속했습니다! 환영해요!"
-  welcome: "§e환영합니다 §6{player}§e님! /hello 를 입력해보세요."
-  welcome-first: "§e처음 오셨군요 §6{player}§e님! 즐거운 시간 되세요!"
 
   # 접속 종료
   quit: "§f{player} §c님이 접속을 종료했습니다."

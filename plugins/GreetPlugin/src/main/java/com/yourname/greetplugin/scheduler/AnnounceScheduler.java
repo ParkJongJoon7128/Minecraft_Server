@@ -1,15 +1,15 @@
-package com.yourname.helloplugin.scheduler;
+package com.yourname.greetplugin.scheduler;
 
-import com.yourname.helloplugin.HelloPlugin;
+import com.yourname.greetplugin.GreetPlugin;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import org.bukkit.scheduler.BukkitRunnable;
 
 public class AnnounceScheduler extends BukkitRunnable {
 
-    private final HelloPlugin plugin;
+    private final GreetPlugin plugin;
 
-    public AnnounceScheduler(HelloPlugin plugin) {
+    public AnnounceScheduler(GreetPlugin plugin) {
         this.plugin = plugin;
     }
 

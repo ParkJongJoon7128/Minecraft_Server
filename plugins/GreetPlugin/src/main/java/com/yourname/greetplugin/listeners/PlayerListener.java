@@ -1,6 +1,6 @@
-package com.yourname.helloplugin.listeners;
+package com.yourname.greetplugin.listeners;
 
-import com.yourname.helloplugin.HelloPlugin;
+import com.yourname.greetplugin.GreetPlugin;
 import net.kyori.adventure.text.serializer.legacy.LegacyComponentSerializer;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -10,9 +10,9 @@ import org.bukkit.event.player.PlayerQuitEvent;
 
 public class PlayerListener implements Listener {
 
-    private final HelloPlugin plugin;
+    private final GreetPlugin plugin;
 
-    public PlayerListener(HelloPlugin plugin) {
+    public PlayerListener(GreetPlugin plugin) {
         this.plugin = plugin;
     }
 

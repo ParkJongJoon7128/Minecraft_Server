@@ -1,8 +1,8 @@
-name: HelloPlugin
+name: GreetPlugin
 version: "1.0"
-main: com.yourname.helloplugin.HelloPlugin
+main: com.yourname.greetplugin.GreetPlugin
 api-version: "1.21"
-description: Hello Plugin
+description: Greet Plugin
 author: YourName
 
 commands:

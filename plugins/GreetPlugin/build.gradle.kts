@@ -2,7 +2,7 @@ plugins {
     java
 }
 
-group = "com.yourname"
+group = "com.yourname.greetplugin"
 version = "1.0-SNAPSHOT"
 
 repositories {

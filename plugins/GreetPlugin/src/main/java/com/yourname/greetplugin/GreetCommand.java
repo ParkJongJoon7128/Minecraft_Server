@@ -1,4 +1,4 @@
-package com.yourname.helloplugin;
+package com.yourname.greetplugin;
 
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -7,7 +7,7 @@ import org.bukkit.entity.Player;
 import net.kyori.adventure.text.Component;
 import net.kyori.adventure.text.format.NamedTextColor;
 
-public class HelloCommand implements CommandExecutor {
+public class GreetCommand implements CommandExecutor {
 
     @Override
     public boolean onCommand(CommandSender sender, Command command,
