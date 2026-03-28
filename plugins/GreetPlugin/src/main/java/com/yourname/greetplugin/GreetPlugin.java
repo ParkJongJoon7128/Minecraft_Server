@@ -11,8 +11,6 @@ public class GreetPlugin extends JavaPlugin {
 
         saveDefaultConfig();
 
-        getCommand("hello").setExecutor(new GreetCommand());
-
         getServer().getPluginManager().registerEvents(
                 new PlayerListener(this), this
         );
